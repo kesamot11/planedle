@@ -56,4 +56,43 @@ cd backend
 ./mvnw spring-boot:run
 # or for Gradle users:
 # ./gradlew bootRun
+```
 
+## 🌍 Environment Config
+
+| File            | Purpose                             |
+|-----------------|-------------------------------------|
+| `.env.local`    | Frontend base API URL               |
+| `application.yml` | Backend CORS origins & app config  |
+
+---
+
+## 🧠 Inspiration
+
+Built out of love for aviation, guessing games, and learning full-stack development.
+
+---
+
+## 📄 License
+
+MIT — free to use, modify, or fork with credit.
+
+---
+
+## ✨ Author
+
+Made with love by **Tomas Holinka** :D
+
+---
+
+## ❓ Ending a Bash Session
+
+To end or exit a **Bash** session (terminal), you can simply type:
+
+```bash
+exit
+```
+or press:
+```bash
+Ctrl + D
+```
