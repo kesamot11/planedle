@@ -1,0 +1,219 @@
+[
+  {
+    "airline": "Lufthansa",
+    "active_aircraft": [
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A320neo",
+      "Airbus A321neo",
+      "Airbus A350-900",
+      "Boeing 747-8",
+      "Airbus A340-600"
+    ]
+  },
+  {
+    "airline": "KLM",
+    "active_aircraft": [
+      "Boeing 737-700",
+      "Boeing 737-800",
+      "Boeing 737-900",
+      "Boeing 777-200ER",
+      "Boeing 777-300ER",
+      "Airbus A330-200",
+      "Embraer E175",
+      "Embraer E195-E2"
+    ]
+  },
+  {
+    "airline": "British Airways",
+    "active_aircraft": [
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A321neo",
+      "Boeing 777-200ER",
+      "Boeing 777-300ER",
+      "Boeing 787-8",
+      "Boeing 787-9",
+      "Airbus A350-1000"
+    ]
+  },
+  {
+    "airline": "Delta Air Lines",
+    "active_aircraft": [
+      "Airbus A220-100",
+      "Airbus A220-300",
+      "Airbus A321",
+      "Boeing 737-800",
+      "Boeing 737-900ER",
+      "Boeing 757-200",
+      "Boeing 767-300ER",
+      "Airbus A330-900neo",
+      "Airbus A350-900"
+    ]
+  },
+  {
+    "airline": "American Airlines",
+    "active_aircraft": [
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A321neo",
+      "Boeing 737-800",
+      "Boeing 777-200ER",
+      "Boeing 787-8",
+      "Boeing 787-9"
+    ]
+  },
+  {
+    "airline": "United Airlines",
+    "active_aircraft": [
+      "Boeing 737 MAX 9",
+      "Boeing 737-800",
+      "Airbus A319",
+      "Airbus A320",
+      "Boeing 757-300",
+      "Boeing 777-200",
+      "Boeing 787-10",
+      "Boeing 787-9"
+    ]
+  },
+  {
+    "airline": "Air France",
+    "active_aircraft": [
+      "Airbus A220-300",
+      "Airbus A318",
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A321",
+      "Airbus A330-200",
+      "Boeing 777-300ER",
+      "Airbus A350-900"
+    ]
+  },
+  {
+    "airline": "Qatar Airways",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321neo",
+      "Airbus A350-900",
+      "Airbus A350-1000",
+      "Boeing 777-200LR",
+      "Boeing 777-300ER",
+      "Boeing 787-9",
+      "Airbus A380-800"
+    ]
+  },
+  {
+    "airline": "Emirates",
+    "active_aircraft": [
+      "Airbus A380-800",
+      "Boeing 777-200LR",
+      "Boeing 777-300ER"
+    ]
+  },
+  {
+    "airline": "Turkish Airlines",
+    "active_aircraft": [
+      "Airbus A321neo",
+      "Airbus A330-200",
+      "Airbus A330-300",
+      "Boeing 737-800",
+      "Boeing 737 MAX 8",
+      "Boeing 777-300ER",
+      "Boeing 787-9"
+    ]
+  },
+  {
+    "airline": "Singapore Airlines",
+    "active_aircraft": [
+      "Airbus A350-900",
+      "Airbus A350-900ULR",
+      "Boeing 777-300ER",
+      "Boeing 787-10"
+    ]
+  },
+  {
+    "airline": "ANA",
+    "active_aircraft": [
+      "Boeing 737-800",
+      "Boeing 767-300ER",
+      "Boeing 777-300ER",
+      "Boeing 787-8",
+      "Boeing 787-9",
+      "Airbus A380-800"
+    ]
+  },
+  {
+    "airline": "Japan Airlines",
+    "active_aircraft": [
+      "Boeing 737-800",
+      "Boeing 767-300ER",
+      "Boeing 777-200ER",
+      "Boeing 787-8",
+      "Boeing 787-9",
+      "Airbus A350-900"
+    ]
+  },
+  {
+    "airline": "Air Canada",
+    "active_aircraft": [
+      "Airbus A220-300",
+      "Airbus A321",
+      "Boeing 737 MAX 8",
+      "Boeing 777-300ER",
+      "Boeing 787-8",
+      "Boeing 787-9"
+    ]
+  },
+  {
+    "airline": "Swiss International Air Lines",
+    "active_aircraft": [
+      "Airbus A220-100",
+      "Airbus A220-300",
+      "Airbus A320",
+      "Airbus A320neo",
+      "Airbus A321",
+      "Airbus A321neo",
+      "Airbus A330-300",
+      "Boeing 777-300ER"
+    ]
+  },
+  {
+    "airline": "Austrian Airlines",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Embraer E195",
+      "Boeing 767-300ER",
+      "Boeing 777-200ER"
+    ]
+  },
+  {
+    "airline": "Finnair",
+    "active_aircraft": [
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A321",
+      "Airbus A330-300",
+      "Airbus A350-900"
+    ]
+  },
+  {
+    "airline": "Etihad Airways",
+    "active_aircraft": [
+      "Airbus A320",
+      "Boeing 787-9",
+      "Boeing 787-10",
+      "Airbus A350-1000"
+    ]
+  },
+  {
+    "airline": "Virgin Atlantic",
+    "active_aircraft": [
+      "Airbus A330-300",
+      "Airbus A330-900neo",
+      "Airbus A350-1000",
+      "Boeing 787-9"
+    ]
+  }
+]
+
