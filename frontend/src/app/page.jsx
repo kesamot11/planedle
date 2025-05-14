@@ -1,5 +1,5 @@
 import React from "react";
-import AirlineAircraft from "./components/AirlineAircraft";
+import AirlineAircraft from "./components/GuessingGame/AirlineAircraft";
 import Image from "next/image";
 
 // app/page.tsx

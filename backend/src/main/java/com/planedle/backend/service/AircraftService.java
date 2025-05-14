@@ -29,7 +29,7 @@ public class AircraftService {
     public RandomAircraftDTO getRandomAircraft(String difficulty) {
         Difficulty requestedDifficulty = Difficulty.valueOf(difficulty.toUpperCase());
         List<AirlineAircraftDTO> filtered = airlineAircrafts.stream()
-                .filter(x -> x.difficulty().equals(requestedDifficulty))
+                .filter(x -> requestedDifficulty.includes(x.difficulty()))
                 .toList();
         int index = new Random().nextInt(filtered.size());
         AirlineAircraftDTO aaDTO = filtered.get(index);
