@@ -5,6 +5,8 @@ public class RandomAircraftDTO {
     private String aircraft;
     private Difficulty difficulty;
 
+    public RandomAircraftDTO() {}
+
     public RandomAircraftDTO(String airline, String aircraft, Difficulty difficulty) {
         this.airline = airline;
         this.aircraft = aircraft;

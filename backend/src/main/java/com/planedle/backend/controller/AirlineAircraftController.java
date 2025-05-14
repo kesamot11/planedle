@@ -17,7 +17,7 @@ public class AirlineAircraftController {
     }
 
     @GetMapping("/random-aircraft")
-    public RandomAircraftDTO getAirlinesAircraft(@RequestParam(defaultValue = "easy") String difficulty) {
+    public RandomAircraftDTO getAirlinesAircraft(@RequestParam(defaultValue = "EASY") String difficulty) {
         return aircraftService.getRandomAircraft(difficulty.toLowerCase());
     }
 }

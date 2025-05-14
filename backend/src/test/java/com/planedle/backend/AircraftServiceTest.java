@@ -15,7 +15,7 @@ public class AircraftServiceTest {
 
     @Test
     public void testRandomAircraftIsNotNull() {
-        RandomAircraftDTO random = aircraftService.getRandomAircraft();
+        RandomAircraftDTO random = aircraftService.getRandomAircraft("EASY");
         assertNotNull(random);
         assertNotNull(random.getAircraft());
         assertNotNull(random.getAirline());
