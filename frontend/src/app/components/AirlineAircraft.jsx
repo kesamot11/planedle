@@ -1,8 +1,7 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, use } from 'react';
 import { fetchRandomAircraft } from '../api/airlineAircraftApi';
-//import { maskWord } from '../utils/masker';
 
 export default function AirlineAircraft() {
     const [aircraft, setAircraft] = useState(null);
@@ -16,13 +15,24 @@ export default function AirlineAircraft() {
     const [availAircraft, setAvailAircraft] = useState(true);
     const [availAirline, setAvailAirline] = useState(true);
     const [showConfetti, setShowConfetti] = useState(false);
+    const [difficulty, setDifficulty] = useState(() => {
+        if (typeof window !== 'undefined') {
+           return localStorage.getItem('difficulty') || 'easy';
+       }
+        return 'easy'; // fallback for SSR
+    });
 
-
+    // Fetch random aircraft data when the component mounts or when the difficulty changes
     useEffect(() => {
-        fetchRandomAircraft()
+        fetchRandomAircraft(difficulty)
             .then((data) => setAircraft(data))
             .catch((error) => console.error('Error fetching aircraft data:', error));
-    }, []);
+    }, [difficulty]);
+
+    // Store the difficulty level in the local storage whenever it changes
+    useEffect(() => {
+        localStorage.setItem('difficulty', difficulty);
+    }, [difficulty]);
 
     if(!aircraft) {
         return <div>Loading...</div>;
@@ -44,7 +54,7 @@ export default function AirlineAircraft() {
         }
         setAirlineGuessArray((prev) => {
             const updated = [...prev, guess];
-            // After adding the current guess, is it now too many?
+            // After adding the current guess, is it now more than 6?
             if (!isCorrect && updated.length > 5) {
                 setCorrectAirline('limit-reached');
                 setAvailAirline(false);
@@ -112,6 +122,20 @@ export default function AirlineAircraft() {
 
     return (
         <div className="relative flex flex-col items-center justify-center w-full h-screen bg-gray-100">
+            <div className="flex gap-4 mb-4">
+              {['easy', 'medium', 'hard'].map((level) => (
+                <button
+                  key={level}
+                  className={`px-4 py-2 rounded font-semibold border hover:cursor-pointer ${
+                    difficulty === level ? 'bg-blue-500 text-white' : 'bg-white text-gray-700'
+                  }`}
+                  onClick={() => setDifficulty(level)}
+                >
+                 {level.charAt(0).toUpperCase() + level.slice(1)}
+                </button>
+              ))}
+            </div>
+
             <div className="flex flex-col justify-center items-center bg-white shadow-md rounded-lg w-full max-w-md sm:max-w-6xl p-4 sm:p-6 mb-6">
                 <div className="flex justify-center flex-wrap text-gray-700 text-2xl sm:text-4xl text-center">{splitWord(aircraft.airline.toUpperCase(), correctAirline)}</div>
                 <div className="flex justify-center flex-wrap mt-2 justify-center text-gray-700 text-2xl sm:text-4xl text-center">{splitWord(aircraft.aircraft.toUpperCase(), correctAircraft)}</div>

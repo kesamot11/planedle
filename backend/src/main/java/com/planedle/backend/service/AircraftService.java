@@ -3,6 +3,7 @@ package com.planedle.backend.service;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.planedle.backend.model.AirlineAircraftDTO;
+import com.planedle.backend.model.Difficulty;
 import com.planedle.backend.model.RandomAircraftDTO;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
@@ -25,12 +26,16 @@ public class AircraftService {
         this.airlineAircrafts = objectMapper.readValue(inputStream, new TypeReference<List<AirlineAircraftDTO>>() {});
     }
 
-    public RandomAircraftDTO getRandomAircraft() {
-        int index = new Random().nextInt(this.airlineAircrafts.size());
-        AirlineAircraftDTO aaDTO = this.airlineAircrafts.get(index);
+    public RandomAircraftDTO getRandomAircraft(String difficulty) {
+        Difficulty requestedDifficulty = Difficulty.valueOf(difficulty.toUpperCase());
+        List<AirlineAircraftDTO> filtered = airlineAircrafts.stream()
+                .filter(x -> x.difficulty().equals(requestedDifficulty))
+                .toList();
+        int index = new Random().nextInt(filtered.size());
+        AirlineAircraftDTO aaDTO = filtered.get(index);
         String airline = aaDTO.airline();
         int random = new Random().nextInt(aaDTO.aircrafts().size());
         String aircraft = aaDTO.aircrafts().get(random);
-        return new RandomAircraftDTO(airline, aircraft);
+        return new RandomAircraftDTO(airline, aircraft, requestedDifficulty);
     }
 }

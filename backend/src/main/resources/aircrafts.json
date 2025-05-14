@@ -1,6 +1,7 @@
 [
   {
     "airline": "Lufthansa",
+    "difficulty": "EASY",
     "active_aircraft": [
       "Airbus A319",
       "Airbus A320",
@@ -13,6 +14,7 @@
   },
   {
     "airline": "Aegean Airlines",
+    "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A320",
       "Airbus A320neo",
@@ -21,6 +23,7 @@
   },
   {
     "airline": "Aer Lingus",
+    "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A320",
       "Airbus A320neo",
@@ -31,6 +34,7 @@
   },
   {
     "airline": "Aerolineas Argentinas",
+    "difficulty": "HARD",
     "active_aircraft": [
       "Boeing 737-700",
       "Boeing 737-800",
@@ -41,12 +45,14 @@
   },
   {
     "airline": "AeroLogic",
+    "difficulty": "HARD",
     "active_aircraft": [
       "Boeing 777F"
     ]
   },
   {
     "airline": "Air Arabia",
+    "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A320",
       "Airbus A321neo",
@@ -55,12 +61,14 @@
   },
   {
     "airline": "Air Baltic",
+    "difficulty": "EASY",
     "active_aircraft": [
       "Airbus A220-300"
     ]
   },
   {
     "airline": "Air China",
+    "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A320neo",
       "Airbus A330-300",
@@ -71,6 +79,7 @@
   },
   {
     "airline": "Air Europa",
+    "difficulty": "HARD",
     "active_aircraft": [
       "Boeing 737-800",
       "Boeing 787-9",
@@ -79,6 +88,7 @@
   },
   {
     "airline": "Air France",
+    "difficulty": "EASY",
     "active_aircraft": [
       "Airbus A318",
       "Airbus A319",
@@ -96,6 +106,7 @@
   },
   {
     "airline": "Air India",
+    "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A320neo",
       "Airbus A321neo",
@@ -109,6 +120,7 @@
   },
   {
     "airline": "Air New Zealand",
+    "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A320neo",
       "Airbus A321neo",
@@ -121,12 +133,14 @@
   },
   {
     "airline": "Air Tahiti Nui",
+    "difficulty": "HARD",
     "active_aircraft": [
       "Boeing 787-9"
     ]
   },
   {
     "airline": "Air Transat",
+    "difficulty": "HARD",
     "active_aircraft": [
       "Airbus A330-200",
       "Airbus A321",
@@ -135,6 +149,7 @@
   },
   {
     "airline": "AirAsia",
+    "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A320",
       "Airbus A320neo"
@@ -142,6 +157,7 @@
   },
   {
     "airline": "AirSERBIA",
+    "difficulty": "HARD",
     "active_aircraft": [
       "Airbus A330-200",
       "Airbus A320",
@@ -150,6 +166,7 @@
   },
   {
     "airline": "Alaska Airlines",
+    "difficulty": "MEDIUM",
     "active_aircraft": [
       "Boeing 737 MAX 8",
       "Boeing 737 MAX 9",
@@ -159,6 +176,7 @@
   },
   {
     "airline": "Asiana Airlines",
+    "difficulty": "MEDIUM",
     "active_aircraft": [
       "Boeing 767-300",
       "Airbus A321neo",
@@ -171,6 +189,7 @@
   },
   {
     "airline": "Atlantic Airways",
+    "difficulty": "HARD",
     "active_aircraft": [
       "Airbus A320",
       "Airbus A320neo"
@@ -178,12 +197,14 @@
   },
   {
     "airline": "Atlas Air",
+    "difficulty": "HARD",
     "active_aircraft": [
       "Boeing 747-8"
     ]
   },
   {
     "airline": "Avianca",
+    "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A320",
       "Airbus A320neo",
@@ -193,6 +214,7 @@
   },
   {
     "airline": "Azul",
+    "difficulty": "HARD",
     "active_aircraft": [
       "Airbus A321",
       "Airbus A320neo",
@@ -206,6 +228,7 @@
   },
   {
     "airline": "KLM",
+    "difficulty": "EASY",
     "active_aircraft": [
       "Boeing 737-700",
       "Boeing 737-800",
@@ -219,6 +242,7 @@
   },
   {
     "airline": "British Airways",
+    "difficulty": "EASY",
     "active_aircraft": [
       "Airbus A319",
       "Airbus A320",
@@ -232,6 +256,7 @@
   },
   {
     "airline": "Delta Air Lines",
+    "difficulty": "EASY",
     "active_aircraft": [
       "Airbus A220-100",
       "Airbus A220-300",
@@ -246,6 +271,7 @@
   },
   {
     "airline": "American Airlines",
+    "difficulty": "EASY",
     "active_aircraft": [
       "Airbus A319",
       "Airbus A320",
@@ -262,6 +288,7 @@
   },
   {
     "airline": "United Airlines",
+    "difficulty": "EASY",
     "active_aircraft": [
       "Boeing 737 MAX 9",
       "Boeing 737-800",
@@ -275,6 +302,7 @@
   },
   {
     "airline": "Qatar Airways",
+    "difficulty": "EASY",
     "active_aircraft": [
       "Airbus A320",
       "Airbus A321neo",
@@ -288,6 +316,7 @@
   },
   {
     "airline": "Emirates",
+    "difficulty": "EASY",
     "active_aircraft": [
       "Airbus A380-800",
       "Boeing 777-200LR",
@@ -296,6 +325,7 @@
   },
   {
     "airline": "Turkish Airlines",
+    "difficulty": "EASY",
     "active_aircraft": [
       "Airbus A321neo",
       "Airbus A330-200",
@@ -308,6 +338,7 @@
   },
   {
     "airline": "Singapore Airlines",
+    "difficulty": "EASY",
     "active_aircraft": [
       "Airbus A350-900",
       "Airbus A350-900ULR",
@@ -317,6 +348,7 @@
   },
   {
     "airline": "ANA",
+    "difficulty": "EASY",
     "active_aircraft": [
       "Boeing 737-800",
       "Boeing 767-300ER",
@@ -328,6 +360,7 @@
   },
   {
     "airline": "Japan Airlines",
+    "difficulty": "EASY",
     "active_aircraft": [
       "Boeing 737-800",
       "Boeing 767-300ER",
@@ -339,6 +372,7 @@
   },
   {
     "airline": "Air Canada",
+    "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A220-300",
       "Airbus A321",
@@ -350,6 +384,7 @@
   },
   {
     "airline": "Swiss International Air Lines",
+    "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A220-100",
       "Airbus A220-300",
@@ -363,6 +398,7 @@
   },
   {
     "airline": "Austrian Airlines",
+    "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A320",
       "Airbus A321",
@@ -373,6 +409,7 @@
   },
   {
     "airline": "Finnair",
+    "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A319",
       "Airbus A320",
@@ -383,6 +420,7 @@
   },
   {
     "airline": "Etihad Airways",
+    "difficulty": "EASY",
     "active_aircraft": [
       "Airbus A320",
       "Boeing 787-9",
@@ -392,6 +430,7 @@
   },
   {
     "airline": "Virgin Atlantic",
+    "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A330-300",
       "Airbus A330-900neo",

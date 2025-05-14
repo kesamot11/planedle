@@ -6,6 +6,7 @@ import java.util.List;
 
 public record AirlineAircraftDTO(
         @JsonProperty String airline,
-        @JsonProperty("active_aircraft") List<String> aircrafts
+        @JsonProperty("active_aircraft") List<String> aircrafts,
+        @JsonProperty Difficulty difficulty
 ) {
 }
