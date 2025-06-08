@@ -6,6 +6,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import javax.sql.DataSource;
+import java.net.URI;
+import java.net.URISyntaxException;
 
 @Configuration
 public class DataSourceConfig {
@@ -32,18 +34,29 @@ public class DataSourceConfig {
     @Bean
     public DataSource dataSource() {
         if (rawDatabaseUrl != null && !rawDatabaseUrl.isEmpty()) {
-            String jdbcUrl = rawDatabaseUrl.replace("postgresql://", "jdbc:postgresql://");
-            return DataSourceBuilder.create()
-                    .url(jdbcUrl)
-                    .build();
+            try {
+                URI uri = new URI(rawDatabaseUrl);
+                String userInfo = uri.getUserInfo(); // user:pass
+                String[] userParts = userInfo.split(":");
+
+                String jdbcUrl = "jdbc:postgresql://" + uri.getHost() + ":" + uri.getPort() + uri.getPath();
+
+                return DataSourceBuilder.create()
+                        .url(jdbcUrl)
+                        .username(userParts[0])
+                        .password(userParts[1])
+                        .build();
+            } catch (URISyntaxException e) {
+                throw new RuntimeException("Invalid DATABASE_URL", e);
+            }
         } else {
-            String jdbcUrl = "jdbc:postgresql://" + dbHost + ":" + dbPort + "/" + dbName;
             return DataSourceBuilder.create()
-                    .url(jdbcUrl)
-                    .username(dbUser)
-                    .password(dbPassword)
+                    .url("jdbc:postgresql://localhost:5432/planedle")
+                    .username("postgres")
+                    .password("03082005")
                     .build();
         }
     }
+
 }
 
