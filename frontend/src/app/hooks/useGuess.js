@@ -1,10 +1,17 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
-export default function useGuess(correctValue, onCorrect = () => {}) {
+export default function useGuess(correctValue, onCorrect = () => {}, gameId ) {
   const [guesses, setGuesses] = useState([]);
   const [status, setStatus] = useState(null); // 'true', 'false', 'limit-reached'
   const [available, setAvailable] = useState(true);
   const [guessed, setGuessed] = useState(false);
+
+  useEffect(() => {
+    setGuesses([]);
+    setStatus(null);
+    setAvailable(true);
+    setGuessed(false);
+  }, [gameId]);
 
   const check = (guess) => {
     const isCorrect = guess.trim().toLowerCase() === correctValue.toLowerCase();

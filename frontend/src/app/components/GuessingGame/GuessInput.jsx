@@ -16,7 +16,7 @@ export default function GuessInput({ guess, setGuess, onSubmit, disabled, placeh
                 >
             </input>
             <button
-                className="w-11/12 p-2 bg-blue-500 text-white rounded mb-2 hover:cursor-pointer"
+                className="w-11/12 p-2 bg-blue-500 text-white rounded mb-2 hover:cursor-pointer hover:bg-blue-400"
                 onClick={onSubmit}
                 disabled={disabled}>
                 {buttonText}

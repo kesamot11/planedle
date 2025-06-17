@@ -1,4 +1,12 @@
 export function safeGet(key) {
-  if (typeof window === 'undefined') return null;
-  return localStorage.getItem(key);
+  try {
+    const value = localStorage.getItem(key);
+    if (value && /^[{\["]/.test(value.trim())) {
+      return JSON.parse(value);
+    }
+    return value;
+  } catch (e) {
+    console.error("safeGet error:", e);
+    return null;
+  }
 }

@@ -2,12 +2,15 @@ import { useState, useEffect } from 'react';
 import { safeGet } from '../utils/localStorage';
 
 export default function useDifficulty() {
-  const [difficulty, setDifficulty] = useState('easy');
-
-  useEffect(() => {
-    const stored = typeof window !== 'undefined' ? safeGet('difficulty') : null;
-    if (stored) setDifficulty(stored);
-  }, []);
+  const [difficulty, setDifficulty] = useState(() => {
+    if (typeof window !== 'undefined') {
+      const stored = safeGet('difficulty');
+      if (stored && typeof stored === 'string') {
+        return stored.toLowerCase();
+      }
+    }
+    return 'easy';
+  });
 
   useEffect(() => {
     localStorage.setItem('difficulty', difficulty);

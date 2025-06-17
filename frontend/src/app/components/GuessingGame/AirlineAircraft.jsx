@@ -9,27 +9,33 @@ import WordSplitDisplay from './WordSplitDisplay';
 import GuessList from './GuessList';
 import useGuess from '../../hooks/useGuess';
 import useDifficulty from '../../hooks/useDifficulty';
+import RefreshButton from './RefreshButton';
+import useAircraft from '../../hooks/useAircraft';
 
 export default function AirlineAircraft() {
-    const [aircraft, setAircraft] = useState(null);
+    const [difficulty, setDifficulty] = useDifficulty();
+    const [aircraft, setAircraft] = useAircraft(difficulty);
     const [airlineGuess, setAirlineGuess] = useState('');
     const [aircraftGuess, setAircraftGuess] = useState('');
     const [showConfetti, setShowConfetti] = useState(false);
+    const [gameId, setGameId] = useState(0);
 
-    const airlineGuessing = useGuess(aircraft?.airline, triggerConfetti);
-    const aircraftGuessing = useGuess(aircraft?.aircraft, triggerConfetti);
-
-    const [difficulty, setDifficulty] = useDifficulty();
-
-    // Fetch random aircraft data when the component mounts or when the difficulty changes
-    useEffect(() => {
-        fetchRandomAircraft(difficulty)
-            .then((data) => setAircraft(data))
-            .catch((error) => console.error('Error fetching aircraft data:', error));
-    }, [difficulty]);
-
-    if (!aircraft) {
-        return <div>Loading...</div>;
+    const airlineGuessing = useGuess(aircraft?.airline, triggerConfetti, gameId);
+    const aircraftGuessing = useGuess(aircraft?.aircraft, triggerConfetti, gameId);
+    console.log(aircraft);
+    if (!aircraft || !aircraft.airline || !aircraft.aircraft) {
+        return <div className="text-gray-700 loading">
+                <span>L</span>
+                <span>O</span>
+                <span>A</span>
+                <span>D</span>
+                <span>I</span>
+                <span>N</span>
+                <span>G</span>
+                <span>.</span>
+                <span>.</span>
+                <span>.</span>
+            </div>;
     }
 
     function triggerConfetti() {
@@ -45,6 +51,11 @@ export default function AirlineAircraft() {
                 <WordSplitDisplay word={aircraft.airline.toUpperCase()} correct={airlineGuessing.status} />
                 <WordSplitDisplay word={aircraft.aircraft.toUpperCase()} correct={aircraftGuessing.status} />
             </div>
+            <RefreshButton 
+                difficulty={difficulty}
+                setAircraft={setAircraft}
+                setGameId={setGameId}
+            />
             <GuessInput
                 guess={airlineGuess}
                 setGuess={setAirlineGuess}
