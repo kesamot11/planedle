@@ -5,11 +5,9 @@ spring:
   datasource:
     spring:
       datasource:
-        url: jdbc:postgresql://postgres.railway.internal:5432/railway?sslmode=require
-        username: postgres
-        password: MsggnRTrrDFGnoOfTxXMDIhfQWRLEHbo
-
-
+        url: ${SPRING_DATASOURCE_URL}
+        username: ${SPRING_DATASOURCE_USERNAME}
+        password: ${SPRING_DATASOURCE_PASSWORD}
 
   jpa:
     hibernate:
