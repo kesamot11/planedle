@@ -3,9 +3,13 @@ spring:
     name: planedle
 
   datasource:
-    url:  ${SPRING_DATASOURCE_URL}    #jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:planedle}
-    #username: ${DB_USER:postgres}
-    #password: ${DB_PASSWORD:03082005}
+    spring:
+      datasource:
+        url: jdbc:postgresql://postgres.railway.internal:5432/railway?sslmode=require
+        username: postgres
+        password: MsggnRTrrDFGnoOfTxXMDIhfQWRLEHbo
+        #jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:planedle}
+
 
   jpa:
     hibernate:
