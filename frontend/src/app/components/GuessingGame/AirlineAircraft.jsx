@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, use } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { fetchRandomAircraft } from '../../api/airlineAircraftApi';
 import Confetti from './Confetti';
 import DifficultySelector from './DifficultySelector';
@@ -11,6 +11,8 @@ import useGuess from '../../hooks/useGuess';
 import useDifficulty from '../../hooks/useDifficulty';
 import RefreshButton from './RefreshButton';
 import useAircraft from '../../hooks/useAircraft';
+import { incrementGuesses } from '../../hooks/useIncrement';
+import { useSession } from '@/app/hooks/useSession';
 
 export default function AirlineAircraft() {
     const [difficulty, setDifficulty] = useDifficulty();
@@ -22,7 +24,35 @@ export default function AirlineAircraft() {
 
     const airlineGuessing = useGuess(aircraft?.airline, triggerConfetti, gameId);
     const aircraftGuessing = useGuess(aircraft?.aircraft, triggerConfetti, gameId);
-    console.log(aircraft);
+
+    const postedRef = useRef(false);
+
+    const { user, setUser } = useSession();
+
+    useEffect(() => {
+        postedRef.current = false;
+    }, [gameId, aircraft?.airline, aircraft?.aircraft]);
+
+    useEffect(() => {
+        const bothCorrect = airlineGuessing.status === 'true' && aircraftGuessing.status === 'true';
+
+        if (!user || !bothCorrect || postedRef.current || !aircraft) return;
+
+        postedRef.current = true;
+        
+        incrementGuesses(user.id)
+        .then((updatedUser) => {
+            setUser(updatedUser);
+          })
+        .catch(err => {
+            console.error("Error incrementing guesses:", err);
+            postedRef.current = false;
+        });
+      }, [airlineGuessing.status, aircraftGuessing.status, aircraft, gameId, user?.id,]);
+
+
+
+
     if (!aircraft || !aircraft.airline || !aircraft.aircraft) {
         return <div className="text-gray-700 loading">
                 <span>L</span>

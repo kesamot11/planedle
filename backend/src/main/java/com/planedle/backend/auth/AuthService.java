@@ -3,10 +3,15 @@ package com.planedle.backend.auth;
 import com.planedle.backend.dto.AuthResponse;
 import com.planedle.backend.dto.LoginRequest;
 import com.planedle.backend.dto.RegisterRequest;
+import com.planedle.backend.dto.UserDTO;
+import com.planedle.backend.exceptions.EmailAlreadyInUseException;
+import com.planedle.backend.exceptions.UsernameAlreadyInUseException;
 import com.planedle.backend.model.User;
 import com.planedle.backend.repository.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class AuthService {
@@ -23,10 +28,10 @@ public class AuthService {
 
     public void register(RegisterRequest registerRequest) {
         if(userRepository.existsByEmail(registerRequest.email())) {
-            throw new RuntimeException("Email already in use");
+            throw new EmailAlreadyInUseException(registerRequest.email());
         }
         if(userRepository.existsByUsername(registerRequest.username())) {
-            throw new RuntimeException("Username already in use");
+            throw new UsernameAlreadyInUseException(registerRequest.username());
         }
         User user = new User();
         user.setEmail(registerRequest.email());
