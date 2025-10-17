@@ -5,11 +5,10 @@
     "active_aircraft": [
       "Airbus A319",
       "Airbus A320",
-      "Airbus A320neo",
       "Airbus A321neo",
-      "Airbus A350-900",
-      "Boeing 747-8",
-      "Airbus A340-600"
+      "Airbus A350",
+      "Boeing 747",
+      "Airbus A340"
     ]
   },
   {
@@ -17,8 +16,7 @@
     "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A320",
-      "Airbus A320neo",
-      "Airbus A321neo"
+      "Airbus A321"
     ]
   },
   {
@@ -26,28 +24,23 @@
     "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A320",
-      "Airbus A320neo",
-      "Airbus A321neo",
-      "Airbus A330-300",
-      "Airbus A330-200"
+      "Airbus A330"
     ]
   },
   {
     "airline": "Aerolineas Argentinas",
     "difficulty": "HARD",
     "active_aircraft": [
-      "Boeing 737-700",
-      "Boeing 737-800",
-      "Boeing 737 MAX 8",
+      "Boeing 737",
       "Embraer E190",
-      "Airbus A330-200"
+      "Airbus A330"
     ]
   },
   {
     "airline": "AeroLogic",
     "difficulty": "HARD",
     "active_aircraft": [
-      "Boeing 777F"
+      "Boeing 777"
     ]
   },
   {
@@ -55,7 +48,6 @@
     "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A320",
-      "Airbus A321neo",
       "Airbus A321"
     ]
   },
@@ -63,27 +55,26 @@
     "airline": "Air Baltic",
     "difficulty": "EASY",
     "active_aircraft": [
-      "Airbus A220-300"
+      "Airbus A220"
     ]
   },
   {
     "airline": "Air China",
     "difficulty": "MEDIUM",
     "active_aircraft": [
-      "Airbus A320neo",
-      "Airbus A330-300",
-      "Airbus A350-900",
-      "Boeing 777-300ER",
-      "Boeing 787-9"
+      "Airbus A320",
+      "Airbus A330",
+      "Airbus A350",
+      "Boeing 777",
+      "Boeing 787"
     ]
   },
   {
     "airline": "Air Europa",
     "difficulty": "HARD",
     "active_aircraft": [
-      "Boeing 737-800",
-      "Boeing 787-9",
-      "Boeing 787-8"
+      "Boeing 737",
+      "Boeing 787"
     ]
   },
   {
@@ -94,72 +85,65 @@
       "Airbus A319",
       "Airbus A320",
       "Airbus A321",
-      "Airbus A220-300",
+      "Airbus A220",
       "Embraer E190",
       "Embraer E170",
-      "Airbus A330-200",
-      "Airbus A350-900",
-      "Boeing 777-300ER",
-      "Boeing 777-200ER",
-      "Boeing 787-9"
+      "Airbus A330",
+      "Airbus A350",
+      "Boeing 777",
+      "Boeing 787"
     ]
   },
   {
     "airline": "Air India",
     "difficulty": "MEDIUM",
     "active_aircraft": [
-      "Airbus A320neo",
-      "Airbus A321neo",
+      "Airbus A321",
       "Airbus A320",
-      "Airbus A350-900",
-      "Boeing 777-200LR",
-      "Boeing 777-300ER",
-      "Boeing 787-8",
-      "Boeing 787-9"
+      "Airbus A350",
+      "Boeing 777",
+      "Boeing 787"
     ]
   },
   {
     "airline": "Air New Zealand",
     "difficulty": "MEDIUM",
     "active_aircraft": [
-      "Airbus A320neo",
-      "Airbus A321neo",
+      "Airbus A321",
       "Airbus A320",
-      "Boeing 777-300ER",
-      "Boeing 787-9",
-      "ATR 72-600",
-      "De Havilland Canada Dash 8-300"
+      "Boeing 777",
+      "Boeing 787",
+      "ATR 72",
+      "Dash 8"
     ]
   },
   {
     "airline": "Air Tahiti Nui",
     "difficulty": "HARD",
     "active_aircraft": [
-      "Boeing 787-9"
+      "Boeing 787"
     ]
   },
   {
     "airline": "Air Transat",
     "difficulty": "HARD",
     "active_aircraft": [
-      "Airbus A330-200",
-      "Airbus A321",
-      "Airbus A321neo"
+      "Airbus A330",
+      "Airbus A321"
     ]
   },
   {
     "airline": "AirAsia",
     "difficulty": "MEDIUM",
     "active_aircraft": [
-      "Airbus A320",
-      "Airbus A320neo"
+      "Airbus A320"
     ]
   },
   {
     "airline": "AirSERBIA",
     "difficulty": "HARD",
     "active_aircraft": [
-      "Airbus A330-200",
+      "Airbus A330",
       "Airbus A320",
       "Airbus A319"
     ]
@@ -168,38 +152,35 @@
     "airline": "Alaska Airlines",
     "difficulty": "MEDIUM",
     "active_aircraft": [
-      "Boeing 737 MAX 8",
-      "Boeing 737 MAX 9",
-      "Boeing 737-800",
-      "Boeing 737-900ER"
+      "Boeing 737",
+      "Airbus A320"
     ]
   },
   {
     "airline": "Asiana Airlines",
     "difficulty": "MEDIUM",
     "active_aircraft": [
-      "Boeing 767-300",
-      "Airbus A321neo",
-      "Airbus A380-800",
-      "Airbus A350-900",
-      "Boeing 747-400",
-      "Boeing 777-200ER",
-      "Airbus A330-300"
+      "Boeing 767",
+      "Airbus A321",
+      "Airbus A380",
+      "Airbus A350",
+      "Boeing 747",
+      "Boeing 777",
+      "Airbus A330"
     ]
   },
   {
     "airline": "Atlantic Airways",
     "difficulty": "HARD",
     "active_aircraft": [
-      "Airbus A320",
-      "Airbus A320neo"
+      "Airbus A320"
     ]
   },
   {
     "airline": "Atlas Air",
     "difficulty": "HARD",
     "active_aircraft": [
-      "Boeing 747-8"
+      "Boeing 747"
     ]
   },
   {
@@ -207,8 +188,7 @@
     "difficulty": "MEDIUM",
     "active_aircraft": [
       "Airbus A320",
-      "Airbus A320neo",
-      "Boeing 787-8",
+      "Boeing 787",
       "Airbus A319"
     ]
   },
@@ -217,27 +197,1340 @@
     "difficulty": "HARD",
     "active_aircraft": [
       "Airbus A321",
-      "Airbus A320neo",
-      "Airbus A321neo",
-      "Airbus A330-200",
-      "Airbus A330-900",
-      "ATR 72-600",
+      "Airbus A320",
+      "Airbus A330",
+      "ATR 72",
+      "Embraer E195"
+    ]
+  },
+  {
+    "airline": "Azul",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A321",
+      "Airbus A320",
+      "Airbus A330",
+      "ATR 72",
+      "Embraer E195"
+    ]
+  },
+  {
+    "airline": "Bahamasair",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "ATR 42",
+      "ATR 72",
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "Bangkok Airways",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "ATR 72",
+      "Airbus A319"
+    ]
+  },
+  {
+    "airline": "Bamboo Airways",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "Batik Air",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "Belavia",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A330",
+      "Boeing 737",
+      "Embraer E195"
+    ]
+  },
+  {
+    "airline": "BermudAir",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Embraer E190",
+      "Embraer E175"
+    ]
+  },
+  {
+    "airline": "Bimad Bangladesh Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 737",
+      "Boeing 777",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Boeing",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 747 Dreamlifter"
+    ]
+  },
+  {
+    "airline": "Breeze Airways",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A220",
+      "Embraer E190"
+    ]
+  },
+  {
+    "airline": "Brussels Airlines",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A330"
+    ]
+  },
+  {
+    "airline": "Bulgaria Air",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A220",
+      "Embraer E190"
+    ]
+  },
+  {
+    "airline": "Cargolux",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 747"
+    ]
+  },
+  {
+    "airline": "Caribbean Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 737",
+      "ATR 72"
+    ]
+  },
+  {
+    "airline": "Cathay Pacific",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Boeing 747",
+      "Boeing 777",
+      "Airbus A321",
+      "Airbus A330",
+      "Airbus A350"
+    ]
+  },
+  {
+    "airline": "Cebu Pacific",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Airbus A330",
+      "ATR 72"
+    ]
+  },
+  {
+    "airline": "Cebu Pacific",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Airbus A330",
+      "ATR 72"
+    ]
+  },
+  {
+    "airline": "Chair Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A319"
+    ]
+  },
+  {
+    "airline": "Chengdu Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A319",
+      "Comac C909"
+    ]
+  },
+  {
+    "airline": "China Airlines",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A350",
+      "Airbus A321",
+      "Airbus A330",
+      "Beoing 777",
+      "Boeing 737",
+      "Boeing 747"
+    ]
+  },
+  {
+    "airline": "China Eastern Airlines",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A350",
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A321",
+      "Airbus A330",
+      "Beoing 777",
+      "Boeing 737",
+      "Comac C919"
+    ]
+  },
+  {
+    "airline": "China Southern Airlines",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A350",
+      "Airbus A320",
+      "Airbus A321",
+      "Airbus A330",
+      "Beoing 777",
+      "Boeing 787",
+      "Comac C909"
+    ]
+  },
+  {
+    "airline": "Chongqing Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "Citilink",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320"
+    ]
+  },
+  {
+    "airline": "Condor",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Airbus A330",
+      "Boeing 757"
+    ]
+  },
+  {
+    "airline": "Copa Airlines",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "Corsair",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A330"
+    ]
+  },
+  {
+    "airline": "Croatia Airlines",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A220",
+      "Dash 8"
+    ]
+  },
+  {
+    "airline": "Croatia Airlines",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A220",
+      "Dash 8"
+    ]
+  },
+  {
+    "airline": "DAT",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "ATR 42",
+      "ATR 72"
+    ]
+  },
+  {
+    "airline": "DHL",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 777",
+      "Boeing 767",
+      "Boeing 747",
+      "Cessna 208",
+      "Boeing 737",
+      "Airbus A330"
+    ]
+  },
+  {
+    "airline": "Discover Airlines",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A330",
+      "Airbus A320"
+    ]
+  },
+  {
+    "airline": "Druk Air",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A319",
+      "Airbus A320"
+    ]
+  },
+  {
+    "airline": "easyJet",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "Edelweiss Air",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A340",
+      "Airbus A350"
+    ]
+  },
+  {
+    "airline": "Egyptair",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Airbus A330",
+      "Boeing 737",
+      "Boeing 777",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "El Al",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737",
+      "Boeing 777",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Enter Air",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "Ethiopian Airlines",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 787",
+      "Airbus A350",
+      "Boeing 777",
+      "Boeing 737",
+      "Boeing 767",
+      "Dash 8"
+    ]
+  },
+  {
+    "airline": "Eurowings",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Boeing 737",
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "EVA Air",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Boeing 777",
+      "Boeing 787",
+      "Airbus A330",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "FedEx",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Cessna 208",
+      "Cessna 408",
+      "Boeing 767",
+      "Boeing 777",
+      "McDonnell Douglas MD-11",
+      "Boeing 757",
+      "Airbus A300",
+      "ATR 72"
+    ]
+  },
+  {
+    "airline": "Fiji Airways",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737",
+      "Airbus A330",
+      "Airbus A350"
+    ]
+  },
+  {
+    "airline": "Flair Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "flydubai",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "flynas",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320"
+    ]
+  },
+  {
+    "airline": "Freebird Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320"
+    ]
+  },
+  {
+    "airline": "Frenchbee",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A350"
+    ]
+  },
+  {
+    "airline": "Frontier Airlines",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "Garuda Indonesia",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A330",
+      "Boeing 737",
+      "Boeing 777"
+    ]
+  },
+  {
+    "airline": "Garuda Indonesia",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A330",
+      "Boeing 737",
+      "Boeing 777"
+    ]
+  },
+  {
+    "airline": "GOL",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "Gulf Air",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Hainan Airlines",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A330",
+      "Boeing 737",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Hawaiian Airlines",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A321",
+      "Airbus A330",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Helvetic Airways",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Embraer E190",
+      "Embraer E195"
+    ]
+  },
+  {
+    "airline": "Hi Fly",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A330"
+    ]
+  },
+  {
+    "airline": "HK express",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "Hong Kong Airlines",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A330"
+    ]
+  },
+  {
+    "airline": "Iberia",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A321",
+      "Airbus A330",
+      "Airbus A350",
+      "Bombardier CRJ1000",
+      "ATR 72",
+      "Bombardier CRJ200"
+    ]
+  },
+  {
+    "airline": "Icelandair",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 767",
+      "Boeing 757",
+      "Dash 8",
+      "Airbus A321",
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Israir Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320"
+    ]
+  },
+  {
+    "airline": "Jeju Air",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "Jet2",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737",
+      "Airbus A321",
+      "Airbus A330"
+    ]
+  },
+  {
+    "airline": "JetBlue",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A220",
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "Jetstar",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Kalitta Air",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 747",
+      "Boeing 777"
+    ]
+  },
+  {
+    "airline": "Kenya Airways",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 737",
+      "Boeing 787",
+      "Embraer E190"
+    ]
+  },
+  {
+    "airline": "Korean Air",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Boeing 777",
+      "Boeing 787",
+      "Boeing 737",
+      "Airbus A330",
+      "Airbus A380",
+      "Boeing 747",
+      "Airbus A350",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "Kuwait Airways",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 777",
+      "Airbus A330",
+      "Airbus A321",
+      "Airbus A320"
+    ]
+  },
+  {
+    "airline": "LATAM Airlines",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 787",
+      "Airbus A319",
+      "Airbus A321",
+      "Airbus A320"
+    ]
+  },
+  {
+    "airline": "Lauda Europe",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320"
+    ]
+  },
+  {
+    "airline": "Lion Air",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "Loganair",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Embraer ERJ145",
+      "ATR 72",
+      "ATR 42"
+    ]
+  },
+  {
+    "airline": "LOT",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Boeing 737",
+      "Boeing 787",
+      "Embraer E170",
+      "Embraer 175",
+      "Embraer E190",
+      "Embraer E195"
+    ]
+  },
+  {
+    "airline": "Luxair",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 737",
+      "Dash 8"
+    ]
+  },
+  {
+    "airline": "Maersk Air Cargo",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 767",
+      "Boeing 777"
+    ]
+  },
+  {
+    "airline": "Malaysia Airlines",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A330",
+      "Airbus A350",
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "Martinair Cargo",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 747"
+    ]
+  },
+  {
+    "airline": "Neos",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 737",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Nepal Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320"
+    ]
+  },
+  {
+    "airline": "Norse",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Norwegian",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "Oman Air",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Pakistan International Airlines",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Boeing 777",
+      "ATR 42"
+    ]
+  },
+  {
+    "airline": "Peach",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "Pegasus",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "Pegasus",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "Philippine Airlines",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Airbus A330",
+      "Airbus A350",
+      "Boeing 777",
+      "Dash 8"
+    ]
+  },
+  {
+    "airline": "Qantas",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A330",
+      "Airbus A380",
+      "Boeing 737",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Red Wings",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Tupolev Tu-204",
+      "Sukhoi Superjet 100",
+      "Boeing 777"
+    ]
+  },
+  {
+    "airline": "Royal Jordanian",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Embraer E190",
       "Embraer E195",
-      "Embraer E195-E2"
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Royal Brunei Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Ryanair",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "S7 Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Boeing 737",
+      "Embraer E170"
+    ]
+  },
+  {
+    "airline": "SalamAir",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "Shenzen Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "SAS",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A321",
+      "Airbus A330",
+      "Airbus A350",
+      "Embraer E195",
+      "Bombardier CRJ900"
+    ]
+  },
+  {
+    "airline": "Saudia",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Airbus A330",
+      "Boeing 787",
+      "Boeing 777",
+      "Boeing 747"
+    ]
+  },
+  {
+    "airline": "Scoot",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Shanghai Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 737",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Sichuan Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A330",
+      "Airbus A350"
+    ]
+  },
+  {
+    "airline": "Sichuan Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A330",
+      "Airbus A350"
+    ]
+  },
+  {
+    "airline": "Silk Way Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Ilyushin Il-76"
+    ]
+  },
+  {
+    "airline": "Silk Way West Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 747",
+      "Boeing 777"
+    ]
+  },
+  {
+    "airline": "SkyWest Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Bombardier CRJ200",
+      "Bombardier CRJ700"
+    ]
+  },
+  {
+    "airline": "SKY Airline",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "SmartLynx",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320"
+    ]
+  },
+  {
+    "airline": "SmartWings",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A220",
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "South African Airways",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A330",
+      "Airbus A340"
+    ]
+  },
+  {
+    "airline": "Southwest Airlines",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "SpiceJet",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737",
+      "Dash 8"
+    ]
+  },
+  {
+    "airline": "Spirit Airlines",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "Spring Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "SriLankan Airlines",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Airbus A330"
+    ]
+  },
+  {
+    "airline": "Starlux",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A350"
+    ]
+  },
+  {
+    "airline": "Sun Country Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "SunExpress",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737",
+      "Airbus A320"
+    ]
+  },
+  {
+    "airline": "Swiftair",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "TAP Air Portugal",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Airbus A330",
+      "Embraer E190"
+    ]
+  },
+  {
+    "airline": "Tarom",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737",
+      "ATR 72"
+    ]
+  },
+  {
+    "airline": "Tarom",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737",
+      "ATR 72"
+    ]
+  },
+  {
+    "airline": "Thai Airways",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A330",
+      "Boeing 777",
+      "Airbus A350"
+    ]
+  },
+  {
+    "airline": "Tianjin Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Embraer E190",
+      "Embraer E195"
+    ]
+  },
+  {
+    "airline": "Titan Airways",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Embraer E190"
+    ]
+  },
+  {
+    "airline": "Transavia",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321",
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "TUI fly",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737",
+      "Boeing 787",
+      "Embraer E195"
+    ]
+  },
+  {
+    "airline": "Tunisair",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320"
+    ]
+  },
+  {
+    "airline": "Turkmenistan Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 737",
+      "Boeing 777"
+    ]
+  },
+  {
+    "airline": "Uganda Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A330",
+      "Bombardier CRJ900"
+    ]
+  },
+  {
+    "airline": "Ukraine International Airlines",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "UPS",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 747",
+      "Boeing 767",
+      "McDonnell Douglas MD-11",
+      "Airbus A300"
+    ]
+  },
+  {
+    "airline": "Utair",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 737",
+      "ATR 72"
+    ]
+  },
+  {
+    "airline": "Uzbekistan Airways",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 787",
+      "Boeing 767",
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "Varesh Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "VietJet Air",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A330",
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "Vietnam Airlines",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A350",
+      "Airbus A321",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Virgin Atlantic",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A330",
+      "Airbus A350",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Virgin Australia",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "Volaris",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "Volotea",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A319"
+    ]
+  },
+  {
+    "airline": "Vueling",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A319",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "WestJet",
+    "difficulty": "MEDIUM",
+    "active_aircraft": [
+      "Dash 8",
+      "Boeing 737",
+      "Boeing 787"
+    ]
+  },
+  {
+    "airline": "Wizz Air",
+    "difficulty": "EASY",
+    "active_aircraft": [
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "airline": "World2Fly",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A350"
+    ]
+  },
+  {
+    "airline": "Xiamen Air",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 787",
+      "Boeing 737"
+    ]
+  },
+  {
+    "airline": "Yamal Airlines",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320",
+      "Sukhoi Superjet 100"
+    ]
+  },
+  {
+    "airline": "Yemenia",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Airbus A320"
+    ]
+  },
+  {
+    "airline": "Zipair",
+    "difficulty": "HARD",
+    "active_aircraft": [
+      "Boeing 787"
     ]
   },
   {
     "airline": "KLM",
     "difficulty": "EASY",
     "active_aircraft": [
-      "Boeing 737-700",
-      "Boeing 737-800",
-      "Boeing 737-900",
-      "Boeing 777-200ER",
-      "Boeing 777-300ER",
-      "Airbus A330-200",
+      "Boeing 737",
+      "Boeing 777",
+      "Airbus A330",
       "Embraer E175",
-      "Embraer E195-E2"
+      "Embraer E195",
+      "Airbus A321",
+      "Boeing 787"
     ]
   },
   {
@@ -246,27 +1539,27 @@
     "active_aircraft": [
       "Airbus A319",
       "Airbus A320",
-      "Airbus A321neo",
-      "Boeing 777-200ER",
-      "Boeing 777-300ER",
-      "Boeing 787-8",
-      "Boeing 787-9",
-      "Airbus A350-1000"
+      "Airbus A321",
+      "Boeing 777",
+      "Boeing 787",
+      "Airbus A350",
+      "Airbus A380",
+      "Embraer E190"
     ]
   },
   {
     "airline": "Delta Air Lines",
     "difficulty": "EASY",
     "active_aircraft": [
-      "Airbus A220-100",
-      "Airbus A220-300",
+      "Airbus A220",
       "Airbus A321",
-      "Boeing 737-800",
-      "Boeing 737-900ER",
-      "Boeing 757-200",
-      "Boeing 767-300ER",
-      "Airbus A330-900neo",
-      "Airbus A350-900"
+      "Airbus A320",
+      "Boeing 737",
+      "Boeing 757",
+      "Boeing 767",
+      "Airbus A330",
+      "Airbus A350",
+      "Bombardier CRJ900"
     ]
   },
   {
@@ -276,28 +1569,22 @@
       "Airbus A319",
       "Airbus A320",
       "Airbus A321",
-      "Boeing 737 MAX 8",
-      "McDonnell Douglas DC-10",
-      "Airbus A321neo",
-      "Boeing 737-800",
-      "Boeing 777-200ER",
-      "Boeing 777-300ER",
-      "Boeing 787-8",
-      "Boeing 787-9"
+      "Boeing 737",
+      "Boeing 777",
+      "Boeing 787"
     ]
   },
   {
     "airline": "United Airlines",
     "difficulty": "EASY",
     "active_aircraft": [
-      "Boeing 737 MAX 9",
-      "Boeing 737-800",
+      "Boeing 737",
       "Airbus A319",
       "Airbus A320",
-      "Boeing 757-300",
-      "Boeing 777-200",
-      "Boeing 787-10",
-      "Boeing 787-9"
+      "Boeing 757",
+      "Boeing 767",
+      "Boeing 777",
+      "Boeing 787"
     ]
   },
   {
@@ -305,95 +1592,89 @@
     "difficulty": "EASY",
     "active_aircraft": [
       "Airbus A320",
-      "Airbus A321neo",
-      "Airbus A350-900",
-      "Airbus A350-1000",
-      "Boeing 777-200LR",
-      "Boeing 777-300ER",
-      "Boeing 787-9",
-      "Airbus A380-800"
+      "Airbus A321",
+      "Airbus A350",
+      "Boeing 777",
+      "Boeing 787",
+      "Airbus A380"
     ]
   },
   {
     "airline": "Emirates",
     "difficulty": "EASY",
     "active_aircraft": [
-      "Airbus A380-800",
-      "Boeing 777-200LR",
-      "Boeing 777-300ER"
+      "Airbus A380",
+      "Boeing 777",
+      "Airbus A350"
     ]
   },
   {
     "airline": "Turkish Airlines",
     "difficulty": "EASY",
     "active_aircraft": [
-      "Airbus A321neo",
-      "Airbus A330-200",
-      "Airbus A330-300",
-      "Boeing 737-800",
-      "Boeing 737 MAX 8",
-      "Boeing 777-300ER",
-      "Boeing 787-9"
+      "Airbus A321",
+      "Airbus A330",
+      "Boeing 737",
+      "Boeing 777",
+      "Boeing 787"
     ]
   },
   {
     "airline": "Singapore Airlines",
     "difficulty": "EASY",
     "active_aircraft": [
-      "Airbus A350-900",
-      "Airbus A350-900ULR",
-      "Boeing 777-300ER",
-      "Boeing 787-10"
+      "Airbus A350",
+      "Boeing 777",
+      "Boeing 787",
+      "Boeing 737",
+      "Airbus A380"
     ]
   },
   {
     "airline": "ANA",
     "difficulty": "EASY",
     "active_aircraft": [
-      "Boeing 737-800",
-      "Boeing 767-300ER",
-      "Boeing 777-300ER",
-      "Boeing 787-8",
-      "Boeing 787-9",
-      "Airbus A380-800"
+      "Boeing 737",
+      "Boeing 767",
+      "Boeing 777",
+      "Boeing 787",
+      "Airbus A380",
+      "Boeing 737"
     ]
   },
   {
     "airline": "Japan Airlines",
     "difficulty": "EASY",
     "active_aircraft": [
-      "Boeing 737-800",
-      "Boeing 767-300ER",
-      "Boeing 777-200ER",
-      "Boeing 787-8",
-      "Boeing 787-9",
-      "Airbus A350-900"
+      "Boeing 737",
+      "Boeing 767",
+      "Boeing 777",
+      "Boeing 787",
+      "Airbus A350"
     ]
   },
   {
     "airline": "Air Canada",
     "difficulty": "MEDIUM",
     "active_aircraft": [
-      "Airbus A220-300",
+      "Airbus A220",
       "Airbus A321",
-      "Boeing 737 MAX 8",
-      "Boeing 777-300ER",
-      "Boeing 787-8",
-      "Boeing 787-9"
+      "Boeing 737",
+      "Boeing 777",
+      "Boeing 787",
+      "Airbus A330"
     ]
   },
   {
-    "airline": "Swiss International Air Lines",
-    "difficulty": "MEDIUM",
+    "airline": "SWISS",
+    "difficulty": "EASY",
     "active_aircraft": [
-      "Airbus A220-100",
-      "Airbus A220-300",
+      "Airbus A220",
       "Airbus A320",
-      "Airbus A320neo",
       "Airbus A321",
-      "Airbus A321neo",
-      "Airbus A330-300",
-      "Boeing 777-300ER"
+      "Airbus A330",
+      "Airbus A340",
+      "Boeing 777"
     ]
   },
   {
@@ -403,8 +1684,8 @@
       "Airbus A320",
       "Airbus A321",
       "Embraer E195",
-      "Boeing 767-300ER",
-      "Boeing 777-200ER"
+      "Boeing 767",
+      "Boeing 777"
     ]
   },
   {
@@ -414,8 +1695,8 @@
       "Airbus A319",
       "Airbus A320",
       "Airbus A321",
-      "Airbus A330-300",
-      "Airbus A350-900"
+      "Airbus A330",
+      "Airbus A350"
     ]
   },
   {
@@ -423,19 +1704,18 @@
     "difficulty": "EASY",
     "active_aircraft": [
       "Airbus A320",
-      "Boeing 787-9",
-      "Boeing 787-10",
-      "Airbus A350-1000"
+      "Boeing 787",
+      "Airbus A350",
+      "Airbus A380"
     ]
   },
   {
     "airline": "Virgin Atlantic",
     "difficulty": "MEDIUM",
     "active_aircraft": [
-      "Airbus A330-300",
-      "Airbus A330-900neo",
-      "Airbus A350-1000",
-      "Boeing 787-9"
+      "Airbus A330",
+      "Airbus A350",
+      "Boeing 787"
     ]
   }
 ]
