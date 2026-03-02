@@ -146,15 +146,17 @@ export default function AirlineAircraft() {
                     array={aircraftGuessing.guesses}
                 />
             </div>
-            {!airlineGuessing.available && !aircraftGuessing.available && (
-                <ShareButton
-                    airlineGuesses={airlineGuessing.status === 'true' ? airlineGuessing.guesses.length + 1 : airlineGuessing.guesses.length}
-                    aircraftGuesses={aircraftGuessing.status === 'true' ? aircraftGuessing.guesses.length + 1 : aircraftGuessing.guesses.length}
-                    airlineWon={airlineGuessing.status === 'true'}
-                    aircraftWon={aircraftGuessing.status === 'true'}
-                    difficulty={difficulty}
-                />
-            )}
+            <div className="w-full max-w-md sm:max-w-xl mt-6 grid grid-cols-1 gap-4 guess-div">
+                {!airlineGuessing.available && !aircraftGuessing.available && (
+                    <ShareButton
+                        airlineGuesses={airlineGuessing.status === 'true' ? airlineGuessing.guesses.length + 1 : airlineGuessing.guesses.length}
+                        aircraftGuesses={aircraftGuessing.status === 'true' ? aircraftGuessing.guesses.length + 1 : aircraftGuessing.guesses.length}
+                        airlineWon={airlineGuessing.status === 'true'}
+                        aircraftWon={aircraftGuessing.status === 'true'}
+                        difficulty={difficulty}
+                    />
+                )}
+            </div>
             {showConfetti && (
                 <Confetti />
             )}

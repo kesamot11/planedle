@@ -13,13 +13,6 @@ export default function Navbar() {
                 <div className="flex flex-col items-center justify-center relative">
                     <div className="flex flex-row justify-between gap-6 px-4 text-xl">
                         <Link className="hover:text-gray-300" href="/">Home</Link>
-                        <button
-                            className="hover:cursor-pointer hover:text-gray-300 font-semibold"
-                            onClick={howToPlay.open}
-                            title="How to Play"
-                        >
-                            ?
-                        </button>
                         <div>
                             {isAuthenticated ? (
                                 <button className="hover:cursor-pointer hover:text-gray-300" onClick={logout}>Logout</button>
@@ -30,6 +23,13 @@ export default function Navbar() {
                                 </div>
                             )}
                         </div>
+                        <button
+                            className="hover:cursor-pointer hover:text-gray-300 font-semibold"
+                            onClick={howToPlay.open}
+                            title="How to Play"
+                        >
+                            ?
+                        </button>
                     </div>
                 </div>
             </nav>
