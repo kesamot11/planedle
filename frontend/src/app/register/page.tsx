@@ -3,30 +3,29 @@
 import React, { useState } from 'react';
 import { register } from '../api/authApi';
 
-
 export default function RegisterPage() {
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [confirm, setConfirm] = useState('');
-    const [err, setErr] = useState(null);
-    const [usernameError, setUsernameError] = useState('');
-    const [emailError, setEmailError] = useState('');
-    const [passwordError, setPasswordError] = useState('');
-    const [confirmError, setConfirmError] = useState('');
-    const [successMessage, setSuccessMessage] = useState('');
+    const [err, setErr] = useState<string | null>(null);
+    const [usernameError, setUsernameError] = useState<string | null>('');
+    const [emailError, setEmailError] = useState<string | null>('');
+    const [passwordError, setPasswordError] = useState<string | null>('');
+    const [confirmError, setConfirmError] = useState<string | null>('');
+    const [successMessage, setSuccessMessage] = useState<string | null>('');
 
     function clearAllErrors() {
         setUsernameError(null);
         setEmailError(null);
         setPasswordError(null);
         setConfirmError(null);
-    }   
+    }
 
-    async function handleSubmit(event) {
+    async function handleSubmit(event: React.FormEvent) {
         event.preventDefault();
         clearAllErrors();
-        
+
         if(!username) {
             setUsernameError('Username is required');
             return;
@@ -75,18 +74,16 @@ export default function RegisterPage() {
             setPasswordError(null);
             setEmailError(null);
             setUsernameError(null);
-        } catch (e) {
-            const field = e?.field;
-            const message = e?.message || "Registration failed";
+        } catch (e: unknown) {
+            const error = e as { field?: string; message?: string };
+            const field = error?.field;
+            const message = error?.message || "Registration failed";
             if (field === "email") setEmailError(message);
             else if (field === "username") setUsernameError(message);
             else setErr(message);
                 setSuccessMessage(null)
             }
     }
-        
-
-
 
     return (
         <section className="flex flex-col items-center justify-center h-screen bg-gray-100">
@@ -110,7 +107,7 @@ export default function RegisterPage() {
                     {successMessage && <p className="text-green-500 text-sm mt-2">{successMessage}</p>}
                 </form>
 
-            </div>            
+            </div>
         </section>
     );
 }

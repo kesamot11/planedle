@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Dispatch, SetStateAction } from 'react';
 import { safeGet } from '../utils/localStorage';
 
-export default function useDifficulty() {
+export default function useDifficulty(): [string, Dispatch<SetStateAction<string>>] {
   const [difficulty, setDifficulty] = useState(() => {
     if (typeof window !== 'undefined') {
       const stored = safeGet('difficulty');

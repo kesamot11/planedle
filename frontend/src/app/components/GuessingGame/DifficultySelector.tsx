@@ -1,4 +1,9 @@
-export default function DifficultySelector({ difficulty, setDifficulty }) {
+interface DifficultySelectorProps {
+    difficulty: string;
+    setDifficulty: (d: string) => void;
+}
+
+export default function DifficultySelector({ difficulty, setDifficulty }: DifficultySelectorProps) {
     const levels = ['easy', 'medium', 'hard'];
     return (
         <div className="flex gap-4 mb-4">

@@ -1,9 +1,9 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import { fetchRandomAircraft } from '../../api/airlineAircraftApi';
 import Confetti from './Confetti';
 import DifficultySelector from './DifficultySelector';
+import ShareButton from './ShareButton';
 import GuessInput from './GuessInput';
 import WordSplitDisplay from './WordSplitDisplay';
 import GuessList from './GuessList';
@@ -39,7 +39,7 @@ export default function AirlineAircraft() {
         if (!user || !bothCorrect || postedRef.current || !aircraft) return;
 
         postedRef.current = true;
-        
+
         incrementGuesses(user.id)
         .then((updatedUser) => {
             setUser(updatedUser);
@@ -48,10 +48,7 @@ export default function AirlineAircraft() {
             console.error("Error incrementing guesses:", err);
             postedRef.current = false;
         });
-      }, [airlineGuessing.status, aircraftGuessing.status, aircraft, gameId, user?.id,]);
-
-
-
+      }, [airlineGuessing.status, aircraftGuessing.status, aircraft, gameId, user?.id]);
 
     if (!aircraft || !aircraft.airline || !aircraft.aircraft) {
         return <div className="text-gray-700 loading">
@@ -78,10 +75,10 @@ export default function AirlineAircraft() {
             <DifficultySelector difficulty={difficulty} setDifficulty={setDifficulty} />
 
             <div className="flex flex-col justify-center items-center bg-white shadow-md rounded-lg w-full max-w-md sm:max-w-6xl p-4 sm:p-6 mb-6">
-                <WordSplitDisplay word={aircraft.airline.toUpperCase()} correct={airlineGuessing.status} />
-                <WordSplitDisplay word={aircraft.aircraft.toUpperCase()} correct={aircraftGuessing.status} />
+                <WordSplitDisplay word={aircraft.airline.toUpperCase()} correct={airlineGuessing.status} guessCount={airlineGuessing.guesses.length} />
+                <WordSplitDisplay word={aircraft.aircraft.toUpperCase()} correct={aircraftGuessing.status} guessCount={aircraftGuessing.guesses.length} />
             </div>
-            <RefreshButton 
+            <RefreshButton
                 difficulty={difficulty}
                 setAircraft={setAircraft}
                 setGameId={setGameId}
@@ -102,7 +99,7 @@ export default function AirlineAircraft() {
                         : '',
                     text:
                         airlineGuessing.status === 'true'
-                            ? '🎉 Correct!'
+                            ? 'Correct!'
                             : airlineGuessing.status === 'false'
                                 ? 'Incorrect! Try again.'
                                 : airlineGuessing.status === 'limit-reached'
@@ -129,7 +126,7 @@ export default function AirlineAircraft() {
                         : '',
                     text:
                         aircraftGuessing.status === 'true'
-                            ? '🎉 Correct!'
+                            ? 'Correct!'
                             : aircraftGuessing.status === 'false'
                                 ? 'Incorrect! Try again.'
                                 : aircraftGuessing.status === 'limit-reached'
@@ -148,6 +145,17 @@ export default function AirlineAircraft() {
                     type="Aircraft"
                     array={aircraftGuessing.guesses}
                 />
+            </div>
+            <div className="w-full max-w-md sm:max-w-xl mt-6 grid grid-cols-1 gap-4 guess-div">
+                {!airlineGuessing.available && !aircraftGuessing.available && (
+                    <ShareButton
+                        airlineGuesses={airlineGuessing.status === 'true' ? airlineGuessing.guesses.length + 1 : airlineGuessing.guesses.length}
+                        aircraftGuesses={aircraftGuessing.status === 'true' ? aircraftGuessing.guesses.length + 1 : aircraftGuessing.guesses.length}
+                        airlineWon={airlineGuessing.status === 'true'}
+                        aircraftWon={aircraftGuessing.status === 'true'}
+                        difficulty={difficulty}
+                    />
+                )}
             </div>
             {showConfetti && (
                 <Confetti />

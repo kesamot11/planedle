@@ -1,8 +1,15 @@
 import { useState, useEffect } from 'react';
+import { GuessStatus, GuessState } from '@/app/types';
 
-export default function useGuess(correctValue, onCorrect = () => {}, gameId ) {
-  const [guesses, setGuesses] = useState([]);
-  const [status, setStatus] = useState(null); // 'true', 'false', 'limit-reached'
+const MAX_GUESSES = 6;
+
+export default function useGuess(
+  correctValue: string | undefined,
+  onCorrect: () => void = () => {},
+  gameId: number
+): GuessState {
+  const [guesses, setGuesses] = useState<string[]>([]);
+  const [status, setStatus] = useState<GuessStatus>(null);
   const [available, setAvailable] = useState(true);
   const [guessed, setGuessed] = useState(false);
 
@@ -13,17 +20,19 @@ export default function useGuess(correctValue, onCorrect = () => {}, gameId ) {
     setGuessed(false);
   }, [gameId]);
 
-  const check = (guess) => {
+  const check = (guess: string) => {
+    if (!correctValue) return;
+
     const isCorrect = guess.trim().toLowerCase() === correctValue.toLowerCase();
 
     if (isCorrect) {
       setStatus('true');
       setAvailable(false);
-      onCorrect(); // triggers confetti
+      onCorrect();
     } else {
       const updated = [...guesses, guess];
       setGuesses(updated);
-      if (updated.length > 5) {
+      if (updated.length >= MAX_GUESSES) {
         setStatus('limit-reached');
         setAvailable(false);
       } else {

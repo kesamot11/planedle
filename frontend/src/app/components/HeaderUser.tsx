@@ -10,7 +10,7 @@ export default function HeaderUser() {
 
   return (
     <div className="flex flex-col items-center justify-center pb-2">
-      <p className="text-xl">Hello {user.username}! Your current score is: {user.correctGuesses}</p>
+      <p className="text-xl">Hello {user?.username}! Your current score is: {user?.correctGuesses}</p>
     </div>
   );
 }
