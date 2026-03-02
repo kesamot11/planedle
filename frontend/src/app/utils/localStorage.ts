@@ -1,4 +1,4 @@
-export function safeGet(key) {
+export function safeGet(key: string): unknown {
   try {
     const value = localStorage.getItem(key);
     if (value && /^[{\["]/.test(value.trim())) {

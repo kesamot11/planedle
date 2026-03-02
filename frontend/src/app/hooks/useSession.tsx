@@ -1,7 +1,6 @@
 'use client';
 import React, { createContext, useContext, useEffect, useMemo, useState, useCallback } from 'react';
-
-type UserDTO = { id: number; username: string; email: string; correctGuesses: number };
+import { UserDTO } from '@/app/types';
 
 type SessionCtx = {
   user: UserDTO | null;

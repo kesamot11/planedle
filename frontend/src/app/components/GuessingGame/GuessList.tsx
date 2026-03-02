@@ -1,4 +1,9 @@
-export default function GuessList({ type, array }) {
+interface GuessListProps {
+    type: string;
+    array: string[];
+}
+
+export default function GuessList({ type, array }: GuessListProps) {
     return (
         <div>
             <h2 className="font-semibold mb-1 text-gray-800">{type} Guesses:</h2>

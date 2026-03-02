@@ -1,4 +1,16 @@
-export default function GuessInput({ guess, setGuess, onSubmit, disabled, placeholder, feedback, buttonText }) {
+import { Feedback } from '@/app/types';
+
+interface GuessInputProps {
+    guess: string;
+    setGuess: (g: string) => void;
+    onSubmit: () => void;
+    disabled: boolean;
+    placeholder: string;
+    feedback: Feedback;
+    buttonText: string;
+}
+
+export default function GuessInput({ guess, setGuess, onSubmit, disabled, placeholder, feedback, buttonText }: GuessInputProps) {
     return (
         <div className="flex-center w-full max-w-md sm:max-w-xl">
             <input
