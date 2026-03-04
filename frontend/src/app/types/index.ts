@@ -25,3 +25,13 @@ export interface Feedback {
   className: string;
   text: string;
 }
+
+export type GameMode = 'daily' | 'practice';
+
+export interface DailyResult {
+  date: string;
+  airlineGuesses: number;
+  aircraftGuesses: number;
+  airlineWon: boolean;
+  aircraftWon: boolean;
+}

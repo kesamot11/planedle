@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Random;
 
@@ -37,5 +38,24 @@ public class AircraftService {
         int random = new Random().nextInt(aaDTO.aircrafts().size());
         String aircraft = aaDTO.aircrafts().get(random);
         return new RandomAircraftDTO(airline, aircraft, requestedDifficulty);
+    }
+
+    public RandomAircraftDTO getDailyAircraft() {
+        long seed = LocalDate.now().toEpochDay();
+        Random rng = new Random(seed);
+
+        List<AirlineAircraftDTO> filtered = airlineAircrafts.stream()
+                .filter(x -> Difficulty.MEDIUM.includes(x.difficulty()))
+                .toList();
+
+        int airlineIndex = rng.nextInt(filtered.size());
+        AirlineAircraftDTO chosen = filtered.get(airlineIndex);
+        int aircraftIndex = rng.nextInt(chosen.aircrafts().size());
+
+        return new RandomAircraftDTO(
+                chosen.airline(),
+                chosen.aircrafts().get(aircraftIndex),
+                Difficulty.MEDIUM
+        );
     }
 }
