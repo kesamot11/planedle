@@ -9,3 +9,11 @@ export async function fetchRandomAircraft(difficulty: string): Promise<AircraftD
     }
     return await response.json();
 }
+
+export async function fetchDailyAircraft(): Promise<AircraftData> {
+    const response = await fetch('/api/daily');
+    if (!response.ok) {
+        throw new Error('Failed to fetch daily aircraft');
+    }
+    return await response.json();
+}
