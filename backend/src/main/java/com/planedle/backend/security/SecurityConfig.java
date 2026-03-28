@@ -39,6 +39,7 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.POST, "/api/auth/logout").permitAll()
 
                         .requestMatchers(HttpMethod.GET, "/api/random-aircraft").permitAll()
+                        .requestMatchers(HttpMethod.GET, "/api/daily").permitAll()
                         // .requestMatchers("/swagger-ui/**", "/v3/api-docs/**", "/actuator/**").permitAll()
 
                         .requestMatchers(HttpMethod.GET, "/api/users/me").authenticated()
